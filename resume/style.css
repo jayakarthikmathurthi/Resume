@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 100px auto;
+}
+
+.whol-sec{
+    border: 1px solid #000;
+    padding: 50px;
+}
+
+
+.whol-sec .logo {
+    width: 5%;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    border: 1px dashed #000;
+    padding: 20px 18px;
+}
+
+.whol-sec .logo img {
+    display: block;
+    width: 100%;
+}
+
+.whol-sec .cntnt h1{
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: 5px;
+    font-family: "Arimo", serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.whol-sec p,
+.whol-sec li{
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: "Arimo", serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.whol-sec li{
+    text-align: left !important;
+}
+
+.whol-sec .cntnt p{
+    text-align: center;
+}
+
+.cmn-sec.btm.skil ul{
+    column-count: 2;
+}
+
+.whol-sec a{
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Arimo", serif;
+}
+
+.whol-sec .cntnt p a:hover{
+    color: #574c4c;
+}
+
+.whol-sec h3 {
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Arimo", serif;
+    font-weight: 700;
+    margin: 0 0 20px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    padding: 15px 0;
+}
+
+.whol-sec .cmn-sec.btm{
+    padding: 10px;
+    border: none;
+}
+
+
+
+.whol-sec .wrk-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whol-sec .pres-wrk {
+    width: 32%;
+}
+
+.whol-sec .abt-wrk {
+    width: 50%;
+}
+
+.whol-sec .lve-bdr{
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 50%;
+    margin: 0 0 10px;
+}
+
+.whol-sec .level{
+    font-size: 0;
+    height: 10px;
+    background-color: #000000;
+    width: 100%;
+
+}
+
+.whol-sec .level.tel{
+    width: 100%;
+}
+
+.whol-sec .level.eng{
+    width: 70%;
+}
+
+.whol-sec .level.hin{
+    width: 30%;
+}
+
+.whol-sec h4 {
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-family: "Arimo", serif;
+    font-weight: 400;
+}
